@@ -1,0 +1,63 @@
+.logo {
+    padding: 0;
+    border-radius: 15px;
+    height: 60px;
+}
+/*  
+font-family: 'Dancing Script', cursive;
+font-family: 'Revalia', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Trykker', serif; 
+*/
+.navbar {
+    background-color: #2c2b3c;
+}
+.inside-nav {
+    background-color: #2c2b3c;
+}
+.nav-link {
+    color: #d8d8f6;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+h5{
+    color: white;
+    font-family: 'Revalia', cursive;
+    margin: 20px;
+}
+.socialNwk {
+    fill: white;
+    margin: auto;
+    text-align: center;
+}
+
+.facebook, .github, .linkedin {
+    padding: 5px;
+    height: 15px;
+    width: 15px;
+    border-radius: 3px;
+    margin: 2px; 
+}
+
+.facebook:hover, .github:hover, .linkedin:hover {
+    opacity: 0.9;
+}
+
+.facebook, .github, .linkedin {
+    background-color: #403F4C;
+}
+.divLogo, .divButton {
+    margin : 0;
+    padding: 0;
+}
+
+/* === MEDIA QUERIES === */
+
+@media screen and (min-width: 990px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+}
