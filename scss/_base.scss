@@ -219,7 +219,6 @@ input {
         display: block;
     }
     h1 {
-        max-width: auto;
         font-size: 60px;
         margin: 90px 0 150px 0;
     }
@@ -282,7 +281,6 @@ input {
         margin: 0;
         font-size: 50px;
         writing-mode: vertical-lr;
-        transform: rotate(180 deg);
         float: left;
         max-height: auto;
     }
@@ -291,11 +289,9 @@ input {
     }
     img {
         max-width: 450px;
-        max-height: auto;
     }
     .photo {
         max-width: 700px;
-        max-height: auto;
     }
     .card-container::-webkit-scrollbar {
         display: none;
