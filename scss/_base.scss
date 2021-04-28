@@ -49,10 +49,13 @@ p {
     text-align: center;
 }
 #description {
+    width: 320px;
+    margin: 10px auto;
+    font-size: 20px;
     padding: 5px;   
     text-align: justify;
 }
-#competences, #realisations, #description {
+#competences, #realisations {
     width: 320px;
     margin: 10px auto;
     text-align: center;
