@@ -133,26 +133,26 @@
         <section id="contact">
           <h3>5. Contact</h3>
             <h4>Laissez-moi un message</h4>
-              <form action="/ma-page-de-données" method="post">
+              <form name="monformulairedecontact" data-netlify="true" action="/ma-page-de-données" method="post">
                 <div class="contact-container">
                   <div class="row">
                       <div class="answer">
-                        <input type="text" placeholder="Nom">
+                        <input type="text" name="Nom" placeholder="Nom">
                       </div>
                       <div class="answer">
-                          <input type="text" placeholder="Société">
+                          <input type="text" name="Société" placeholder="Société">
                       </div>
                   </div>
                       <div class='row'>
                           <div class="answer">
-                              <input type="text" placeholder="Mail">
+                              <input type="text" name="Mail" placeholder="Mail">
                           </div>
                           <div class="answer">
-                              <input type="text" placeholder="Téléphone">
+                              <input type="text" name="Téléphone" placeholder="Téléphone">
                           </div>
                       </div>
                   <div class="message">
-                      <textarea placeholder="Message"></textarea>
+                      <textarea name="Message" placeholder="Message"></textarea>
                   </div>
                   <div class="btn_submit">
                       <input type="submit" value="Envoyer" class="contact-button">
